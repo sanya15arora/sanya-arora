@@ -13,7 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
     return (
         <div>
-            <NavBar/>
+            <Navbar/>
             <Home/>
             <AboutMe/>
             <Skills/>
