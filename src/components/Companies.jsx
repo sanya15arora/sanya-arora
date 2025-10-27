@@ -1,7 +1,6 @@
 import React from 'react'
 import SectionHeading from '../shared/SectionHeading.jsx'
-import './../Constants'
-import {AppText, CompanyImage} from './../Constants'
+import {AppText, CompanyImage} from '../constants'
 
 const Companies = () => {
     return (

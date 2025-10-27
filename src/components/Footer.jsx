@@ -1,5 +1,5 @@
 import React from 'react'
-import {AppText, socialNetwork} from '../Constants'
+import {AppText, socialNetwork} from '../constants'
 
 const Footer = () => {
     return (

@@ -1,9 +1,8 @@
 import React, {useEffect, useRef, useState} from 'react'
 import {contactusbg, phone} from '../assets'
-import {AppText} from '../Constants'
-import SectionHeading from '../Shared/SectionHeading'
+import {AppText, FORM_ID} from '../constants'
+import SectionHeading from '../shared/SectionHeading'
 import {useForm, ValidationError} from '@formspree/react';
-import {FORM_ID} from "../Constants";
 import {toast} from "react-toastify";
 
 

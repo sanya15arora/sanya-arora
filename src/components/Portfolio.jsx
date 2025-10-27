@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
-import {AppText, portfolio} from '../Constants'
-import SectionHeading from '../Shared/SectionHeading';
-import {robo} from './../assets/index'
+import {AppText, portfolio} from '../constants'
+import SectionHeading from '../shared/SectionHeading';
+import {robo} from '../assets/index'
 
 const Portfolio = () => {
 
