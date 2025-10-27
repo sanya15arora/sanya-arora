@@ -11,7 +11,7 @@ export const AppText = {
     hello: 'Hello,',
     Iam: 'I am ',
     SanyaArora: 'Sanya Arora',
-    IntroDesc: 'A Former Quality Assurance Engineer turned into a Frontend Developer with 1 year and 4 months of experience in  developing, and optimizing responsive web applications.',
+    IntroDesc: 'I am a Frontend Developer with 1 year and 4 months of experience in  developing, and optimizing responsive web applications.',
     About: 'About',
     Me: 'Me',
     aboutMeDescription: 'Results-driven Frontend Developer with 1 year and 4 months of experience in designing, developing, and optimizing responsive web applications. Proficient in ReactJS, NextJS, JavaScript, TypeScript, Material UI, Tailwind CSS, HTML, and CSS, with a strong foundation in responsive design and UI/UX best practices.',
