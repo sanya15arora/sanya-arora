@@ -1,8 +1,6 @@
 import React from 'react'
-import './../assets'
-import {skill} from './../assets'
-import './../Constants'
-import {AppText, skillsList, workDetail} from './../Constants'
+import {skill} from '../assets'
+import {AppText, skillsList, workDetail} from '../constants'
 
 const Skills = () => {
     return (
