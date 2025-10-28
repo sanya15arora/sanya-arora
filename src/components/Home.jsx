@@ -32,7 +32,7 @@ const Home = () => {
             <div>
                 <h1 className={'text-[42px] font-bold'}>{AppText.hello}</h1>
                 <h1 className={'text-[42px] font-bold'}>{AppText.Iam}
-                    <span className={'text-[#f6cc77] inline-block'}><Typewriter
+                    <span className={'text-[#f3ca86] inline-block'}><Typewriter
                         options={{
                             strings: [AppText.SanyaArora, AppText.FrontedDeveloper],
                             autoStart: true,
