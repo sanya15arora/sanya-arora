@@ -6,10 +6,6 @@ import {IoClose} from "react-icons/io5";
 
 const navList = [
     {
-        label: 'Home',
-        navLink: '/#home'
-    },
-    {
         label: 'About Me',
         navLink: '/#aboutme'
     },
@@ -37,7 +33,7 @@ const NavBar = () => {
     const [toggleMenu, setToggleMenu] = React.useState(false);
     return (
         <div className="flex justify-between items-center pt-8 sticky top-0 z-50 bg-white/70 backdrop-blur-md">
-            <img src={logo} alt={'SA'} className={'h-12 object-fit'}/>
+            <a href={'#home'}><img src={logo} alt={'SA'} className={'h-12 object-fit'}/></a>
             <div className={'hidden md:flex'}>
                 <ul className={'flex flex-row'}>
                     {navList.map((navItem, index) => (
