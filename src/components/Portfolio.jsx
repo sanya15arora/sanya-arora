@@ -35,7 +35,7 @@ const Portfolio = () => {
                             <div className={'flex flex-wrap lg:justify-center'}>
                                 {project.technologies.map((tech, index) =>
                                         <span key={index}
-                                              className={'m-1 rounded bg-[#f6cc77] px-2 py-1 text-sm font-medium text-white'}>
+                                              className={'m-1 rounded bg-[#ffd23f] px-2 py-1 text-sm font-medium text-white'}>
                                 {tech}
                                 </span>
                                 )}

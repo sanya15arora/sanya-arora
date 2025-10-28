@@ -32,7 +32,7 @@ const Home = () => {
             <div>
                 <h1 className={'text-[42px] font-bold'}>{AppText.hello}</h1>
                 <h1 className={'text-[42px] font-bold'}>{AppText.Iam}
-                    <span className={'text-[#f3ca86] inline-block'}><Typewriter
+                    <span className={'text-[#ffd23f] inline-block'}><Typewriter
                         options={{
                             strings: [AppText.SanyaArora, AppText.FrontedDeveloper],
                             autoStart: true,
@@ -45,7 +45,7 @@ const Home = () => {
                 <button
                     onClick={handleDownload}
                     disabled={isDownloading}
-                    className={`bg-[#f6cc77] p-2 px-3 rounded-md mt-4 transition-all ease-in-out 
+                    className={`bg-[#ffd23f] p-2 px-3 rounded-md mt-4 transition-all ease-in-out 
         hover:scale-110 text-white flex items-center justify-center gap-2 
         ${isDownloading ? "opacity-70 cursor-not-allowed" : ""}`}
                 >

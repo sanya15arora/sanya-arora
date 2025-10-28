@@ -13,7 +13,7 @@ const Footer = () => {
                            target="_blank"
                            rel="noopener noreferrer"
                            aria-label="Social Link"
-                           className="text-3xl text-gray-700 hover:text-[#f6cc77] transition-colors cursor-pointer"
+                           className="text-3xl text-gray-700 hover:text-[#ffd23f] transition-colors cursor-pointer"
                         >
                             <LogoComponent/>
                         </a>

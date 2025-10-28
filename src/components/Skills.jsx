@@ -8,7 +8,7 @@ const Skills = () => {
             <div className='flex flex-row justify-center items-center'>
                 <img src={skill} className="w-[70px] animate-bounce " alt={'skill heading icon'}/>
                 <h1 className='text-[40px] font-bold'>{AppText.Skills}<span
-                    className='text-[#f6cc77]'>{AppText.Expertise}</span></h1>
+                    className='text-[#ffd23f]'>{AppText.Expertise}</span></h1>
             </div>
             <div className='flex flex-col md:flex-row  justify-evenly px-8 md:px-0 mt-8 '>
                 <div className='grid grid-cols-4 md:grid-cols-4 gap-8  items-center'>

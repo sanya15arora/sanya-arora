@@ -4,6 +4,6 @@
     <!-- <S in black -->
     <text x="1" y="26" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#000000">&lt;S</text>
 
-    <!-- A/> in #f6cc77 -->
-    <text x="36" y="26" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#f6cc77">A/&gt;</text>
+    <!-- A/> in #ffd23f -->
+    <text x="36" y="26" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFD23F">A/&gt;</text>
 </svg>

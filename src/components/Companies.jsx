@@ -4,7 +4,7 @@ import {AppText, CompanyImage} from '../constants'
 
 const Companies = () => {
     return (
-        <div id='companies' className='bg-[#f6cc77] p-5'>
+        <div id='companies' className='bg-[#ffd23f] p-5'>
             <div className='flex justify-center items-center flex-col'>
                 <SectionHeading firstTitle={AppText.CompaniesI} secondTitle={AppText.WorkedFor} isWhite={true}/>
                 <div className='grid grid-cols-2 m-3 items-center'>

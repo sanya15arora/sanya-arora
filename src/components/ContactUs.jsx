@@ -23,7 +23,7 @@ function ContactUs() {
             formRef.current.reset();
             toast.success('Thank you! Your message has been sent successfully.', {
                 style: {
-                    background: '#f6cc77',
+                    background: '#ffd23f',
                     color: '#fff',
                     fontWeight: 500,
                     borderRadius: '8px',
@@ -51,7 +51,7 @@ function ContactUs() {
                                    name="email"
                                    placeholder='yourname@gmail.com'
                                    className='border-[1.5px] px-2 border-[#f6cc7795]
-              hover:border-[#f6cc77] rounded-md  focus:outline-hidden'/>
+              hover:border-[#ffd23f] rounded-md  focus:outline-hidden'/>
                             <ValidationError
                                 prefix="Email"
                                 field="email"
@@ -66,7 +66,7 @@ function ContactUs() {
                                       type="text"
                                       rows={7}
                                       placeholder='Type your message here'
-                                      className='border-[1.5px] px-2 hover:border-[#f6cc77] border-[#f6cc7795] rounded-md  focus:outline-hidden'/>
+                                      className='border-[1.5px] px-2 hover:border-[#ffd23f] border-[#f6cc7795] rounded-md  focus:outline-hidden'/>
                             <ValidationError
                                 prefix="Message"
                                 field="message"
@@ -76,7 +76,7 @@ function ContactUs() {
                         <button
                             type="submit"
                             disabled={isSubmitting || state.submitting}
-                            className={`transition-all ease-in-out hover:scale-105 bg-[#f6cc77] flex flex-row items-center justify-center text-[18px] py-2 mt-5 text-white rounded-md shadow-md gap-2
+                            className={`transition-all ease-in-out hover:scale-105 bg-[#ffd23f] flex flex-row items-center justify-center text-[18px] py-2 mt-5 text-white rounded-md shadow-md gap-2
                 ${(isSubmitting || state.submitting) ? "opacity-70 cursor-not-allowed" : ""}`}
                         >
                             {(isSubmitting || state.submitting) ? (
