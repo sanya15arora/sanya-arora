@@ -4,7 +4,7 @@ import {laptop, wave} from "../assets/index.js";
 
 const AboutMe = () => {
     return (
-        <div className={'mt-36'} id={'aboutme'}>
+        <div className={'mt-36 scroll-mt-20'} id={'aboutme'}>
             <img src={wave} className={'w-screen absolute'} alt={'wave'}/>
             <img src={laptop} className={'absolute mt-[-130px] md:mt-[-180px] w-[220px] md:w-[300px]'}
                  alt={'laptop'}/>

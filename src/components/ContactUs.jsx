@@ -34,7 +34,7 @@ function ContactUs() {
 
 
     return (
-        <div id="contact" className='flex flex-col justify-center mt-10'>
+        <div id="contact" className='flex flex-col justify-center mt-10 scroll-mt-20'>
             <div className='flex flex-row  justify-center '>
                 <SectionHeading firstTitle={AppText.Contact} secondTitle={AppText.Me}/>
                 <img src={phone} className="w-[80px] ml-4 animate-bounce" alt={'phone'}/>

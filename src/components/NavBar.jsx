@@ -36,7 +36,7 @@ const NavBar = () => {
 
     const [toggleMenu, setToggleMenu] = React.useState(false);
     return (
-        <div className='flex justify-between pt-8'>
+        <div className="flex justify-between items-center pt-8 sticky top-0 z-50 bg-white/70 backdrop-blur-md">
             <img src={logo} alt={'SA'} className={'h-12 object-fit'}/>
             <div className={'hidden md:flex'}>
                 <ul className={'flex flex-row'}>

@@ -4,7 +4,7 @@ import {AppText, skillsList, workDetail} from '../constants'
 
 const Skills = () => {
     return (
-        <div className='mt-10' id="skills">
+        <div className='mt-10 scroll-mt-20' id="skills">
             <div className='flex flex-row justify-center items-center'>
                 <img src={skill} className="w-[70px] animate-bounce " alt={'skill heading icon'}/>
                 <h1 className='text-[40px] font-bold'>{AppText.Skills}<span

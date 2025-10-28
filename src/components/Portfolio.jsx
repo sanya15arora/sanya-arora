@@ -13,7 +13,7 @@ const Portfolio = () => {
     }, [])
 
     return (
-        <div className='mt-25 flex justify-center flex-col' id={"portfolio"}>
+        <div className='mt-25 scroll-mt-20 flex justify-center flex-col' id={"portfolio"}>
             <div className='flex flex-row px-6 md:px-0 items-center justify-center'>
                 {/* <h1 className='text-[40px] font-bold'>{AppText.Creative}
         <span className='text-purple-600'>{AppText.Portfolio}</span></h1> */}

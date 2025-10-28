@@ -28,7 +28,8 @@ const Home = () => {
 
 
     return (
-        <div className="mt-7 px-4 md:px-8 flex flex-col items-center justify-center md:flex-row" id={'home'}>
+        <div className="mt-7 scroll-mt-20 px-4 md:px-8 flex flex-col items-center justify-center md:flex-row"
+             id={'home'}>
             <div>
                 <h1 className={'text-[42px] font-bold'}>{AppText.hello}</h1>
                 <h1 className={'text-[42px] font-bold'}>{AppText.Iam}
