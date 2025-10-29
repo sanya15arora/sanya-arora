@@ -121,7 +121,7 @@ export const portfolio = [
         id: 2,
         title: 'VirtualR',
         type: 'website',
-        technologies: ["HTML", "CSS", "TailwindCSS", "Javascript", "React"],
+        technologies: ["HTML", "CSS", "TailwindCSS", "Javascript", "React", "Framer Motion"],
         desc: "A modern and fully responsive landing Page for the Virtual Reality Software company providing software as a service (saas)",
         image: project3,
         demoLink: 'https://virtualr-nu-lake.vercel.app/'
